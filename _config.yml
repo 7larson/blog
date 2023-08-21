@@ -7,6 +7,8 @@ date_format: "%B %d, %Y"
 
 # Layout
 
+baseurl: "/blog/"
+
 show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
@@ -15,8 +17,11 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+- {url: "https://7larson.com/work.html", title: "Work"}
+- {url: "https://7larson.com/about.html", title: "About"}
+- {file: "index.html"}
+- {url: "https://7larson.com/contact.html", title: "Contact"}
+
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:sev@7larson.com"}
